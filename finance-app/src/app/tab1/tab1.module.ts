@@ -7,13 +7,18 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 
+import { PaymentCardModule } from '../payment-card/payment-card.module';
+import { PaymentListModule } from '../payment-list/payment-list.module';
+
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    PaymentCardModule,
+    PaymentListModule
   ],
   declarations: [Tab1Page]
 })

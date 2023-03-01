@@ -1,0 +1,7 @@
+<ng-container *ngFor="let payment of paymentList">
+  <app-payment-card 
+    [paymentName]="payment.paymentName"
+    [paymentAmount]="payment.paymentAmount" 
+    [dueDate]="payment.dueDate">
+  </app-payment-card>
+</ng-container>
