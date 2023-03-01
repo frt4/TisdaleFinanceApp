@@ -2,10 +2,10 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
+import { UpcomingPaymentsTab } from './upcoming-payments-tab.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { UpcomingPaymentsTabRoutingModule } from './upcoming-payments-tab-routing.module';
 
 import { PaymentCardModule } from '../payment-card/payment-card.module';
 import { PaymentListModule } from '../payment-list/payment-list.module';
@@ -16,10 +16,10 @@ import { PaymentListModule } from '../payment-list/payment-list.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule,
+    UpcomingPaymentsTabRoutingModule,
     PaymentCardModule,
     PaymentListModule
   ],
-  declarations: [Tab1Page]
+  declarations: [UpcomingPaymentsTab]
 })
-export class Tab1PageModule {}
+export class UpcomingPaymentsTabModule {}
